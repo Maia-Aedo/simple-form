@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(201, 132, 120);
+    font-size: 20px;
+}
+
+
+/* .container {
+    width: 400px;
+    padding: 40px;
+} */
+
+.formulario {
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.507);
+    position: relative;
+    padding: 50px 50px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin: 0 0 10px;
+    color: black;
+    font-size: 13px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: semibold;
+}
+
+input, select, textarea {
+    outline: none;
+    display: block;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px;
+    color: #522828;
+    font-family: inherit;
+    font-size: inherit;
+    border-bottom: 3px solid #522828;
+    transition: 0.5s ease;
+    margin: 20px 0 15px 0;
+    background: grey;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #522828 !important;
+}
+
+select{
+    color: #522828 ;
+}
+
+button{
+    width: 40%;
+    margin-left: 90px;
+    color: white;
+    border: 0;
+    background-color: rgb(201, 132, 120);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: grey;
+    color: black;
+}

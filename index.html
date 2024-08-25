@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario simple</title>
+    <link rel="stylesheet" href="./public/styles.css">
+</head>
+
+<body>
+    <!-- FORMULARIO -->
+    <div class="container">
+        <form name="datos" class="formulario" id="form">
+            <label for="nombre" class="etiqueta" id="labelNombre">Ingrese su nombre:</label>
+            <input type="text" name="nombre" id="nombre" class="datos" placeholder="Ingrese su nombre aquí">
+            <label for="apellido" class="etiqueta" id="labelApellido">Ingrese su apellido:</label>
+            <input type="text" name="apellido" id="apellido" class="datos" placeholder="Ingrese su apellido aquí">
+            <label for="selection">¿En qué provincia reside?</label>
+            <select name="provincia" id="provincia" class="select">
+                <option value="" class="datos" selected hidden>Seleccione su provincia</option>
+                <option value="bsas">Buenos Aires</option>
+                <option value="rioNegro">Río Negro</option>
+                <option value="neuquen">Neuquén</option>
+                <option value="chubut">Chubut</option>
+                <option value="santaCruz">Santa Cruz</option>
+                <option value="tierraFuego">Tierra del Fuego</option>
+            </select>
+            <label for="mejora" class="etiqueta" id="labelText">Tus ideas para mejorar el medio ambiente en tu
+                ciudad</label>
+            <textarea name="mejora" id="textarea" placeholder="Esribe aquí" class="datos"></textarea>
+            <button type="submit" id="submit">Enviar </button>
+        </form>
+    </div>
+    <script src="./public/main.js"></script>
+</body>
+
+</html>
