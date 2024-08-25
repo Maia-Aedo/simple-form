@@ -10,12 +10,12 @@ body {
     font-size: 20px;
 }
 
-
 /* .container {
     width: 400px;
     padding: 40px;
 } */
 
+/* FORM Y CAMPOS */
 .formulario {
     width: 60%;
     margin: 30px auto;
@@ -62,6 +62,7 @@ select{
     color: #522828 ;
 }
 
+/* BUTTON */
 button{
     width: 40%;
     margin-left: 90px;
@@ -78,3 +79,14 @@ button:hover{
     background-color: grey;
     color: black;
 }
+
+/* FOOTER */
+footer {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+
